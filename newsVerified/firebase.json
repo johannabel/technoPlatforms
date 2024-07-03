@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "newsverified-bvv-n2am",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
